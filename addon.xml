@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.estuary.easy" version="2.0.21.8" name="Estuary Easy (Leia)" provider-name="phil65, Ichabod Fletchman, JiRo a Client">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<news>
+[B]Verze 2.0.21.8[/B]
+- neveřejná verze
+- podpora pro doplněk Stream Cinema 2.0
+- nová verze systémového menu - změna koncepce řešení a rozšíření (neomezené s uživatelským výběrem) počtu položek menu
+- rozšíření MusicOSD menu o položku zobrazení parametrů kódování přehrávaného souboru/steramu
+- zásadní rozšíření VideoOSD menu o řadu položek pro výběr funkcí zobrazení a ovládání přehrávaného souboru/steramu 
+- zlepšení uživatelského nastavení položek menu a jejich widgetů
+- default nastavení vybraných položek menu a jejich widgetů při inicální instalaci
+- integrovaná uživatelelská podpora - online help v 1. úrovni nastavení skinu v textové i obrazové (screenshots) podobě 
+[B]Upozornění:[/B]
+[I]Implementace funkcí skinu pro doplňek Stream Cinema 2.0 odpovídá aktuální úrovni vývoje doplňku. To znamená, že nelogičnosti a nesoulad s principy a obecnými zásadami a zvyklostmi tvorby doplňků Kodi a následně i jejich zpracování ve skinu, jdou na vrub míře a úrovni vývoje tohoto doplňku. Tvůrce skinu dokáže mnohé, ale v některých případech je implementace podpory doplňku, jehož autoři nerespektují zmíněná pravidla, obtížná a výsledek je "nevalný".
+V současné chvíli se snažíme podporu pro doplněk Stream Cinema 2.0 zachovat i do budoucna v intencích podobných podpoře pro doplněk Stream Cinema od @BBaron. Ale teprve následující období ukáže, zda je to z pohledu skinu i nadále možné.[/I]
+[B]Verze 2.0.21.7[/B]
+- neveřejná verze
+- oddělení od Estuary Stream-Cinema
+- sloučení s komunitní verzí Estuary Easy
+- sloučení s vývojovou verzí Estuary Master
+- vytvoření tří úrovní skinu: Cinema, Easy a Master
+		</news>
+		<summary lang="cs_CZ">Vzhled Estuary Easy od autora phil65 s modifikací od JiRo a Client</summary>
+		<description lang="cs_CZ">Estuary Easy je odvozený od výchozího vzhledu pro Kodi 18.0 a vyšší. Snaží se být jednoduše pochopitelný a použitelný pro nové uživatele Kodi. Modifikace pro celou řadu doplňků přidává do vzhledu funkce pro přímé využívání nejen tradičních a populárních českých a slovenských doplňků, ale i další drobnějších vylepšení.</description>
+		<description lang="sk_SK">Estuary Easy je odvodený od predvoleného vzhľadu pre Kodi 18.0 a vyššie. Snaží sa byť jednoducho pochopiteľný a použiteľný pre nových užívateľov Kodi. Modifikácia pre celý rad doplnkov pridáva do vzhľadu funkcie pre priame využívanie nielen tradičných a populárnych českých a slovenských doplnkov, ale aj ďalšie drobnejšie vylepšenia.</description>
+		<disclaimer lang="cs_CZ">Estuary Easy je amatérskou úpravou vzhledu Estuary. Používáte ho na vlastní nebezpečí.[CR]Případnou podporu najdete na http://blog.easy-kodi.cz</disclaimer>
+		<disclaimer lang="sk_SK">Estuary Easy je amatérskou úpravou vhľadu Estuary. Používate ho na vlastné nebezpečenstvo.[CR]Prípadnú podporu nájdete na http://blog.easy-kodi.cz</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>http://blog.easy-kodi.cz</forum>
+		<source>https://github.com/jirkoun/skin.estuary.easy/</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
